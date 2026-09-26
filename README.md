@@ -2,6 +2,10 @@
 
 A responsive, one-page portfolio website built with HTML, CSS, and JavaScript. It presents my background, selected course projects, skills, gallery, and contact information.
 
+## Live Site
+
+[View the portfolio](https://enowadan.github.io/Portfolio/).
+
 ## Features
 
 - Responsive layouts for desktop and mobile
