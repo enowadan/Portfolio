@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enow | Portfolio</title>
+  <meta name="description" content="Portfolio website for a front-end developer showcasing work, skills, and contact information." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="One-Page Website/JS/one_page_website.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <div class="brand">Enow</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Front-End Developer</p>
+        <h1>Building clean, modern web experiences.</h1>
+        <p class="lead">
+          I design and build responsive websites that combine strong visual appeal with practical usability and accessibility.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#contact">Contact Me</a>
+        </div>
+        <ul class="mini-stats" aria-label="Quick facts">
+          <li><strong>2+</strong><span>Years Learning</span></li>
+          <li><strong>5+</strong><span>Projects Built</span></li>
+          <li><strong>100%</strong><span>Creative Focus</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-card">
+        <button class="profile-image-wrap lightbox-trigger" type="button" data-full="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1800&q=90" aria-label="View larger portrait of the developer">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=75" alt="Portrait of the developer" />
+        </button>
+        <div class="card-info">
+          <span class="status-dot"></span>
+          Available for freelance work
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="content-section container">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>Passionate about thoughtful design and usable interfaces.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a web developer focused on building responsive, user-friendly websites using HTML, CSS, and modern front-end practices.
+            I enjoy turning ideas into polished digital experiences that are easy to use, visually engaging, and accessible to everyone.
+          </p>
+          <p>
+            Through my coursework and personal projects, I have grown my skills in layout design, semantic HTML, typography, styling, and Bootstrap-based responsive layouts.
+          </p>
+        </div>
+        <div class="about-panel">
+          <h3>What I focus on</h3>
+          <ul>
+            <li>Responsive user interfaces</li>
+            <li>Clear content structure</li>
+            <li>Modern visual styling</li>
+            <li>Accessible design practices</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="content-section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work from the HTML and CSS course.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-tag">Landing Page</div>
+            <h3>Simple Recipes</h3>
+            <p>A warm recipe-themed homepage with a hero section, calls to action, and custom styling for a food blog feel.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">UI Section</div>
+            <h3>About Page</h3>
+            <p>An informational section with smooth scrolling, structured content, and consistent visual design that complements the main page.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Contact Form</div>
+            <h3>Contact Experience</h3>
+            <p>A clean contact section with a user form, contact details, and a polished interface tailored to the site’s branding.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Bootstrap</div>
+            <h3>Responsive Footer</h3>
+            <p>A multi-column footer built with Bootstrap grid classes to organize contact info, social links, and copyright details.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="content-section container">
+      <div class="section-heading">
+        <p class="eyebrow">Gallery</p>
+        <h2>A few moments of inspiration.</h2>
+      </div>
+      <div class="image-gallery" aria-label="Photo gallery">
+        <button class="gallery-item lightbox-trigger" type="button" data-full="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1800&q=90" aria-label="View larger image: mountain sunrise">
+          <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=480&q=70" alt="Sunrise over a misty mountain landscape" loading="lazy" />
+          <span>Mountain sunrise</span>
+        </button>
+        <button class="gallery-item lightbox-trigger" type="button" data-full="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1800&q=90" aria-label="View larger image: alpine lake">
+          <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=480&q=70" alt="Alpine lake surrounded by mountains" loading="lazy" />
+          <span>Alpine lake</span>
+        </button>
+        <button class="gallery-item lightbox-trigger" type="button" data-full="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1800&q=90" aria-label="View larger image: forest trail">
+          <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=480&q=70" alt="Sunlight falling across a green forest trail" loading="lazy" />
+          <span>Forest trail</span>
+        </button>
+        <button class="gallery-item lightbox-trigger" type="button" data-full="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=90" aria-label="View larger image: open landscape">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=480&q=70" alt="Wide open landscape beneath a blue sky" loading="lazy" />
+          <span>Open landscape</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="skills" class="content-section container">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Tools and technologies I use.</h2>
+      </div>
+
+      <div class="skills-grid">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>Responsive Design</span>
+        <span>Bootstrap</span>
+        <span>Accessibility</span>
+        <span>Visual Design</span>
+        <span>Typography</span>
+        <span>Git & GitHub</span>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section container">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s build something meaningful together.</h2>
+      </div>
+
+      <div class="contact-box">
+        <div>
+          <h3>Get in touch</h3>
+          <p>Email: hello@enow.dev</p>
+          <p>Phone: +1 (555) 123-4567</p>
+          <p>Location: United States</p>
+        </div>
+
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" placeholder="Your name" />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="you@example.com" />
+          </label>
+          <label>
+            Message
+            <textarea rows="4" placeholder="Tell me about your project..."></textarea>
+          </label>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Enow. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
